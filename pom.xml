@@ -409,11 +409,10 @@
 					<goals><goal>assemble</goal></goals>
 					<configuration>
 						<assembleDirectory>target</assembleDirectory>
-						<generateRepository>false</generateRepository>
 						<extraJvmArguments>-Xmx512m</extraJvmArguments>
 						<programs>
 							<program>
-								<mainClass>Main</mainClass>
+								<mainClass>com.springsource.petclinic.PetclinicMain</mainClass>
 								<name>webapp</name>
 							</program>
 						</programs>
